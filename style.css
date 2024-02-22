@@ -101,8 +101,8 @@ figure {
 	box-shadow: 0 .1em .2em var(--color-neutral-95);
 	text-align: center;
 	background: white;
-    max-width: 300px; /* or any specific value like 300px */
-    max-height: 200px; /* or any specific value like 200px */
+    width: 100%; 
+  
     
    
 
@@ -127,4 +127,8 @@ figure {
 			text-decoration-color: color-mix(in lab, currentColor, transparent 70%);
 		}
 	}
+}
+figure img {
+    max-width: 100%; 
+    height: auto;
 }
