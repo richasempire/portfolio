@@ -101,6 +101,10 @@ figure {
 	box-shadow: 0 .1em .2em var(--color-neutral-95);
 	text-align: center;
 	background: white;
+    max-width: 300px; /* or any specific value like 300px */
+    max-height: 200px; /* or any specific value like 200px */
+    
+   
 
 	> figcaption {
 		font: 500 75% var(--font-sans);
