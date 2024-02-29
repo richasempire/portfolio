@@ -1,129 +1,13 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Vis & Society Assignment 2</title>
-	<link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <h1>Hello projects</h1>
+    
 </head>
-
 <body>
-	<header>
-		<h1>
-			<small>Assignment 2</small>
-			Exploratory Data Analysis
-		</h1>
-
-		<p>
-			<strong>Richa Gupta</strong> — <em>richag@mit.edu</em>
-		</p>
-	</header>
-	<main>
-		<section>
-			<h2>Subtheme: Making a case for upzoning</h2>
-
-			<h3>Overall Analysis Questions</h3>
-			<ol>
-				<li>Which municipalities are located in Massachusetts?</li>
-				<li>What is the population of each municipality in Massachusetts, and are there any significant differences?
-        </li>
-				<li>What are the demographic characteristics of the population in terms of gender, age groups, and race, and how do these relate to housing?</li>
-				<li>What is the distribution of household incomes across municipalities, and are there any standout cases?</li>
-        <li>Which municipalities have a prevalence of single-family homes and other types of housing, and is there a correlation with the demographic data?</li>
-        <li>What are the potential factors influencing zoning regulations in Massachusetts municipalities?</li>
-        
-			</ol>
-		</section>
-
-		<section>
-      
-			<h2>Discoveries & Insights</h2>
-
-			<figure>
-				<img src="images\1. Municipalities in Massachusetts with population.png" alt="" />
-				<figcaption>
-					According to the dataset provided, Massachusetts has 155 municipalities. However, the data lacks information on the area of each municipality, which would be valuable for determining the density of each municipality.
-				</figcaption>
-			</figure>
-
-			<figure>
-				<img src="images/2. Population Mapping.png" alt="syle.css" />
-				<figcaption>
-					Cluster 5 has the highest population, while Cluster 1 has the lowest. This information helps us understand the geographical grouping and positioning of population-rich areas, which suggests the likelihood of more housing in those places.
-				</figcaption>
-			</figure>
-
-			<figure>
-				<img src="images\2.2 Top 30 Municipalities in terms of population .png" alt="" />
-				<figcaption>
-					For a more focused analysis of the data, we will concentrate on the top 30 municipalities in Massachusetts. Boston stands out as the highest-ranking municipality and becomes an outlier. There is a definite need in Boston to ensure that housing conditions are appropriate and adequate.
-				</figcaption>
-			</figure>
-
-			<figure>
-				<img src="images\2.3 Population and MBTA Community.png" alt="" />
-				<figcaption>
-					The next step is to verify whether all these municipalities are connected by the MBTA. However, the results are surprising. As a resident of the Boston area, I can confidently state that the MBTA does indeed serve Boston, contrary to what the data suggests. While I have reservations about the accuracy of the data provided, let's continue our investigation.
-				</figcaption>
-			</figure>
-
-			
-
-			<figure>
-				<img src="images\3.2 Population age demography.png" alt="" />
-				<figcaption>
-					The attached chart provides a comprehensive view of population diversity. Interestingly, the age distribution across municipalities is relatively balanced, with no age group disproportionately represented. This contrasts sharply with cities like Tokyo, where the increasing proportion of the population over 65 has raised concerns. In such cases, zoning regulations need to be adapted to address the demographic shift. However, our data suggests that Massachusetts does not face this particular challenge, allowing for a more uniform approach to zoning.
-				</figcaption>
-			</figure>
-
-			<figure>
-				<img src="images\3.3 Population Race Demography with only single familiy.png" alt="" />
-				<figcaption>
-					This analysis offers a fascinating comparison of population races, shedding light on overall diversity. It allows us to discern whether racial diversity is consistent across regions and raises questions about potential discrimination. The data highlights the prominence of multiracial and non-Hispanic individuals in certain areas. Predominantly, Massachusetts is composed of White Americans. Additionally, the color-coded information reveals zoning preferences, with single-family zoning prevalent in areas with a higher presence of other races. It would be intriguing to delve into the income levels in these regions to further understand the implications.
-				</figcaption>
-			</figure>
-
-			<figure>
-				<img src="images\3.4 Single Family housing.png" alt="" />
-				<figcaption>
-					Before we delve into the household income of each of the top 30 municipalities, it's worth examining the distribution of single-family housing on a geographical scale. One might assume regional influence, but the reality paints a different picture. The scattered distinction suggests that the prevalence of single-family housing is driven by individual municipal policies rather than neighboring influences. This observation necessitates further data to unravel the factors favoring single-family housing in these areas and the absence of "missing middle" housing solutions.
-				</figcaption>
-			</figure>
-
-			<figure>
-				<img src="images\4.2 Household Population.png" alt="" />
-				<figcaption>
-					(Boston excluded as it is Oulier and can effect our understanding) A closer look at the households in each area is essential to understand the prevalent types of households in these municipalities. The attached scatter plot provides insights into the relationship between various household types and population size. Generally, there's a direct proportionality observed until we consider households with six members.
-				</figcaption>
-			</figure>
-
-
-			<figure>
-				<img src="images/5 Municipalities with income range and population range comparision with single housing percentage(Boston excluded).png" alt="" />
-				<figcaption>
-					Continuing our analysis of excluding Boston, this chart provides a clear depiction of various income ranges in relation to population and municipalities. An intriguing aspect is the thickness of the bars in the chart, which indicates that areas with higher populations tend to have fewer single-family homes. This observation is a valuable zoning indicator, especially in the context of the cost associated with extra single-family housing. Interestingly, some municipalities still maintain a large percentage of single-family homes.
-	 
-				</figcaption>
-			</figure>
-		</section>
-
-		<section>
-			<h2>Summary</h2>
-
-			<p>This analysis highlights the urgent need for upzoning in Massachusetts to address the housing affordability crisis. Despite examining 155 municipalities, our dataset's limitations prevent a complete understanding of the situation. Key findings include:</p>
-
-			<p>1. Demographic Distribution: No significant age-related challenges, unlike cities like Tokyo.</p>
-			<p>2. Housing Distribution: Higher population densities correlate with fewer single-family homes, challenging common zoning myths.</p>
-			<p>3. Investment Impact: Speculative investment in real estate exacerbates affordability issues, as shown in MAPC's "Homes for Profit" report.</p>
-			<p>To truly tackle affordability, both high demand and low supply must be addressed. Upzoning, or zoning reform, is essential for increasing housing density and diversity. However, our current dataset falls short in providing a full picture.</p>
-				
-			<p>Additional Data Requirements:</p>
-				
-			<p>1. Detailed Zoning Regulations: To understand the specific constraints on housing development.</p>
-			<p>2. Historical Housing Data: To track changes in housing supply and demand over time.</p>
-			<p>3. Income and Employment Statistics: To correlate economic factors with housing affordability.</p>
-			<p>4. Transportation and Infrastructure Data: To assess the impact of accessibility on housing choices.</p>
-			<p>5. Political Data: As per some articles, it is worth giving shot to other influences.</p>
-			<p>By expanding our dataset and continuing our analysis, we can develop more targeted solutions to make Massachusetts more accessible and affordable for all residents..</p>
-		</section>
-	</main>
+    
 </body>
 </html>
