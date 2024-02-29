@@ -116,7 +116,7 @@ figure {
 		text-align: left;
 
 		&::before {
-			content: "Figure & Insights " counter(figure) ": ";
+			content: " "  " ";
 			font-weight: bold;
 			color: var(--color-neutral-40);
 		}
